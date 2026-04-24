@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('CHECKOUT') {
             steps {
-                git 'https://github.com/VarshithaJ07/maven.git'
+                git branch: 'main', url: 'https://github.com/VarshithaJ07/maven.git'
             }
         }
 
